@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  column-gap: 10px;
+}
+
+.button {
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(107, 184, 207);
+}
