@@ -39,7 +39,7 @@ const App = () => {
     <div>
       <Section titel="Please leave feedback">
         <FeedbackOptions
-          options={['good', 'neutral', 'bad']}
+          options={{ good, neutral, bad }}
           onLeaveFeedback={onLeaveFeedback}
         ></FeedbackOptions>
       </Section>
