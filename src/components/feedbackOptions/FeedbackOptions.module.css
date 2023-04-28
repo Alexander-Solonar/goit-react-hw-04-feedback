@@ -6,6 +6,7 @@
 .button {
   padding: 3px 7px;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .button:active {

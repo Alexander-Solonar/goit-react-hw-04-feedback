@@ -10,15 +10,15 @@ const App = () => {
 
   const onLeaveFeedback = mark => {
     switch (mark) {
-      case 'Good':
+      case 'good':
         setGood(prevState => prevState + 1);
         break;
 
-      case 'Neutral':
+      case 'neutral':
         setNeutral(prevState => prevState + 1);
         break;
 
-      case 'Bad':
+      case 'bad':
         setBad(prevState => prevState + 1);
         break;
 
@@ -39,7 +39,7 @@ const App = () => {
     <div>
       <Section titel="Please leave feedback">
         <FeedbackOptions
-          options={['Good', 'Neutral', 'Bad']}
+          options={['good', 'neutral', 'bad']}
           onLeaveFeedback={onLeaveFeedback}
         ></FeedbackOptions>
       </Section>
